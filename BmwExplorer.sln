@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AvaloniaUI", "AvaloniaUI", "{969852E4-D9E5-4B31-B592-DAB759F1239C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{38B22B9B-9172-4461-B80C-33DB62A4ED13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{3F1850B5-5663-4307-AC2D-A9A3B22FC094}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmwExplorer.WPF.UI", "WPF\BmwExplorer.WPF.UI\BmwExplorer.WPF.UI.csproj", "{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMWExplorer.Avalonia.UI", "BMWExplorer.Avalonia.UI\BMWExplorer.Avalonia.UI.csproj", "{E13F1B2A-2379-4844-9AB9-00E71549ABB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmwExplorer.Shared.ViewModels", "Core\BmwExplorer.Shared.ViewModels\BmwExplorer.Shared.ViewModels.csproj", "{95B40849-22A6-44E1-87C9-E132AA9F40EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13F1B2A-2379-4844-9AB9-00E71549ABB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13F1B2A-2379-4844-9AB9-00E71549ABB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13F1B2A-2379-4844-9AB9-00E71549ABB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13F1B2A-2379-4844-9AB9-00E71549ABB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B40849-22A6-44E1-87C9-E132AA9F40EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B40849-22A6-44E1-87C9-E132AA9F40EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B40849-22A6-44E1-87C9-E132AA9F40EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B40849-22A6-44E1-87C9-E132AA9F40EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8} = {3F1850B5-5663-4307-AC2D-A9A3B22FC094}
+		{E13F1B2A-2379-4844-9AB9-00E71549ABB9} = {969852E4-D9E5-4B31-B592-DAB759F1239C}
+		{95B40849-22A6-44E1-87C9-E132AA9F40EF} = {38B22B9B-9172-4461-B80C-33DB62A4ED13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70252C38-1674-42B3-8FC4-B3B90A45E8FD}
+	EndGlobalSection
+EndGlobal
