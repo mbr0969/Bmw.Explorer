@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{3F1850B5-566
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmwExplorer.WPF.UI", "WPF\BmwExplorer.WPF.UI\BmwExplorer.WPF.UI.csproj", "{59D54DAA-7E99-4E00-9D2C-A1256E5DB1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMWExplorer.Avalonia.UI", "BMWExplorer.Avalonia.UI\BMWExplorer.Avalonia.UI.csproj", "{E13F1B2A-2379-4844-9AB9-00E71549ABB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMWExplorer.Avalonia.UI", "AvaloniaUI\BMWExplorer.Avalonia.UI\BMWExplorer.Avalonia.UI.csproj", "{E13F1B2A-2379-4844-9AB9-00E71549ABB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmwExplorer.Shared.ViewModels", "Core\BmwExplorer.Shared.ViewModels\BmwExplorer.Shared.ViewModels.csproj", "{95B40849-22A6-44E1-87C9-E132AA9F40EF}"
 EndProject
