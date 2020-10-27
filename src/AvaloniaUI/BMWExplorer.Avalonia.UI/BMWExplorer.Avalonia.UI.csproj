@@ -13,6 +13,6 @@
     <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.12" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\BmwExplorer.Shared.ViewModels\BmwExplorer.Shared.ViewModels.csproj" />
+    <ProjectReference Include="..\..\Core\BmwExplorer.Shared.ViewModels\BmwExplorer.Shared.ViewModels.csproj" />
   </ItemGroup>
 </Project>
