@@ -11,6 +11,9 @@
     <PackageReference Include="Avalonia" Version="0.9.12" />
     <PackageReference Include="Avalonia.Desktop" Version="0.9.12" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.12" />
+    <PackageReference Include="Avalonia.Xaml.Behaviors" Version="0.9.12" />
+    <PackageReference Include="Avalonia.Xaml.Interactions" Version="0.9.12" />
+    <PackageReference Include="Avalonia.Xaml.Interactivity" Version="0.9.12" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Core\BmwExplorer.Shared.ViewModels\BmwExplorer.Shared.ViewModels.csproj" />

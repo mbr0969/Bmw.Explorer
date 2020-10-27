@@ -5,6 +5,8 @@
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 		x:Class="BMWExplorer.Avalonia.UI.Views.MainWindow"
+		xmlns:i="clr-namespace:Avalonia.Xaml.Interactivity;assembly=Avalonia.Xaml.Interactivity"
+		xmlns:ia="clr-namespace:Avalonia.Xaml.Interactions.Core;assembly=Avalonia.Xaml.Interactions"
 		WindowState="Maximized"
 		WindowStartupLocation="CenterScreen"
 		Icon="/Assets/avalonia-logo.ico"
@@ -13,7 +15,28 @@
 	<Design.DataContext>
 		<vm:MainWindowViewModel/>
 	</Design.DataContext>
+	<Grid>
+		<Grid.RowDefinitions >
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions >
+		<TextBox Grid.Row="0" Text="{Binding FilePath}"/>
+		
+		<ListBox Grid.Row="1" Items="{Binding DirectoryAndFiles}"
+				 SelectedItem="{Binding SelectedFileEntity}">
+			<i:Interaction.Behaviors>
+				<ia:EventTriggerBehavior EventName="DoubleTapped">
+					<ia:InvokeCommandAction Command="{Binding OpenCommand}" CommandParameter="{Binding SelectedFileEntity}"/>
+				</ia:EventTriggerBehavior>
+			</i:Interaction.Behaviors>
 
-	<TextBlock Text="{Binding MainDiskName}"/>
-	
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Grid Background="Transparent">
+						<TextBlock Text="{Binding Name}"/>
+					</Grid>
+				</DataTemplate>		
+			</ListBox.ItemTemplate>			
+		</ListBox>		
+	</Grid>	
 </Window>
